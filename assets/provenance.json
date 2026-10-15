@@ -1,0 +1,12 @@
+{
+  "schema": "screen-throw-freeze-provenance@1",
+  "clock": {
+    "file": "reveal-clock.json",
+    "sha256": "54f39c24481ef7ad35ef0a5767c3e5c9199598eff803010d10bf5ee290398f65",
+    "derivation": "Normalized per-row clipping progress after removal of leading transparent pixels; original global frame anchors retained.",
+    "fps": 30,
+    "frames": 563
+  },
+  "distribution": "Timing data, authored skill instructions and cue-generation code only. Reference video, music, product imagery, account configuration and private production files are excluded.",
+  "claims": "No product ingredient or non-detection claims are supplied by this package. Replacement copy needs its own SKU-matched basis."
+}

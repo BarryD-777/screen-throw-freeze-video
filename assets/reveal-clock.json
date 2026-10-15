@@ -1,0 +1,3161 @@
+{
+  "format": "screen-throw-freeze-clock@1",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "frames": 563
+  },
+  "audio": {
+    "asset": "reference-bgm.m4a",
+    "start_frame": 0,
+    "speed": 1
+  },
+  "events": {
+    "action_end_frame_exclusive": 97,
+    "spin_start_frame": 97,
+    "freeze_frame": 101,
+    "shade_settled_frame": 103,
+    "product_settled_frame": 104
+  },
+  "left": {
+    "title_frame": 101,
+    "rows": [
+      {
+        "slot": 1,
+        "start_frame": 101,
+        "complete_frame": 104,
+        "hold_end_frame": 563,
+        "changes": [
+          [
+            101,
+            0.11510791
+          ],
+          [
+            102,
+            0.1942446
+          ],
+          [
+            103,
+            0.51798561
+          ],
+          [
+            104,
+            1
+          ]
+        ]
+      },
+      {
+        "slot": 2,
+        "start_frame": 106,
+        "complete_frame": 110,
+        "hold_end_frame": 563,
+        "changes": [
+          [
+            106,
+            0.14018692
+          ],
+          [
+            108,
+            0.50934579
+          ],
+          [
+            109,
+            0.6728972
+          ],
+          [
+            110,
+            1
+          ]
+        ]
+      },
+      {
+        "slot": 3,
+        "start_frame": 111,
+        "complete_frame": 117,
+        "hold_end_frame": 563,
+        "changes": [
+          [
+            111,
+            0.07287449
+          ],
+          [
+            112,
+            0.11336032
+          ],
+          [
+            113,
+            0.28744939
+          ],
+          [
+            114,
+            0.42510121
+          ],
+          [
+            115,
+            0.71659919
+          ],
+          [
+            116,
+            0.8582996
+          ],
+          [
+            117,
+            1
+          ]
+        ]
+      },
+      {
+        "slot": 4,
+        "start_frame": 118,
+        "complete_frame": 123,
+        "hold_end_frame": 563,
+        "changes": [
+          [
+            118,
+            0.83730159
+          ],
+          [
+            122,
+            0.85714286
+          ],
+          [
+            123,
+            1
+          ]
+        ]
+      },
+      {
+        "slot": 5,
+        "start_frame": 124,
+        "complete_frame": 129,
+        "hold_end_frame": 563,
+        "changes": [
+          [
+            124,
+            0.80155642
+          ],
+          [
+            129,
+            1
+          ]
+        ]
+      },
+      {
+        "slot": 6,
+        "start_frame": 130,
+        "complete_frame": 134,
+        "hold_end_frame": 563,
+        "changes": [
+          [
+            130,
+            0.30136986
+          ],
+          [
+            132,
+            0.50684932
+          ],
+          [
+            133,
+            0.75342466
+          ],
+          [
+            134,
+            1
+          ]
+        ]
+      },
+      {
+        "slot": 7,
+        "start_frame": 135,
+        "complete_frame": 139,
+        "hold_end_frame": 563,
+        "changes": [
+          [
+            135,
+            0.1
+          ],
+          [
+            136,
+            0.14736842
+          ],
+          [
+            137,
+            0.55263158
+          ],
+          [
+            138,
+            0.73684211
+          ],
+          [
+            139,
+            1
+          ]
+        ]
+      },
+      {
+        "slot": 8,
+        "start_frame": 141,
+        "complete_frame": 141,
+        "hold_end_frame": 563,
+        "changes": [
+          [
+            141,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "right": {
+    "title_frame": 158,
+    "pages": [
+      {
+        "start_frame": 158,
+        "end_frame_exclusive": 213,
+        "rows": [
+          {
+            "slot": 1,
+            "start_frame": 158,
+            "complete_frame": 160,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                158,
+                0.05063291
+              ],
+              [
+                159,
+                0.44303797
+              ],
+              [
+                160,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 2,
+            "start_frame": 161,
+            "complete_frame": 163,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                161,
+                0.20625
+              ],
+              [
+                162,
+                0.6625
+              ],
+              [
+                163,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 3,
+            "start_frame": 164,
+            "complete_frame": 166,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                164,
+                0.3081761
+              ],
+              [
+                165,
+                0.88679245
+              ],
+              [
+                166,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 4,
+            "start_frame": 166,
+            "complete_frame": 168,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                166,
+                0.0960452
+              ],
+              [
+                167,
+                0.50847458
+              ],
+              [
+                168,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 5,
+            "start_frame": 169,
+            "complete_frame": 171,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                169,
+                0.20125786
+              ],
+              [
+                170,
+                0.66037736
+              ],
+              [
+                171,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 6,
+            "start_frame": 172,
+            "complete_frame": 173,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                172,
+                0.41129032
+              ],
+              [
+                173,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 7,
+            "start_frame": 174,
+            "complete_frame": 177,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                174,
+                0.22608696
+              ],
+              [
+                175,
+                0.54782609
+              ],
+              [
+                176,
+                0.92608696
+              ],
+              [
+                177,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 8,
+            "start_frame": 177,
+            "complete_frame": 179,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                177,
+                0.18181818
+              ],
+              [
+                178,
+                0.83636364
+              ],
+              [
+                179,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 9,
+            "start_frame": 179,
+            "complete_frame": 181,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                179,
+                0.16666667
+              ],
+              [
+                180,
+                0.83333333
+              ],
+              [
+                181,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 10,
+            "start_frame": 181,
+            "complete_frame": 183,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                181,
+                0.16883117
+              ],
+              [
+                182,
+                0.53896104
+              ],
+              [
+                183,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 11,
+            "start_frame": 184,
+            "complete_frame": 186,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                184,
+                0.2
+              ],
+              [
+                185,
+                0.57
+              ],
+              [
+                186,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 12,
+            "start_frame": 187,
+            "complete_frame": 189,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                187,
+                0.17105263
+              ],
+              [
+                188,
+                0.65789474
+              ],
+              [
+                189,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 13,
+            "start_frame": 189,
+            "complete_frame": 192,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                189,
+                0.07236842
+              ],
+              [
+                190,
+                0.39473684
+              ],
+              [
+                191,
+                0.88157895
+              ],
+              [
+                192,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 14,
+            "start_frame": 192,
+            "complete_frame": 194,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                192,
+                0.16911765
+              ],
+              [
+                193,
+                0.61029412
+              ],
+              [
+                194,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 15,
+            "start_frame": 194,
+            "complete_frame": 196,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                194,
+                0.06060606
+              ],
+              [
+                195,
+                0.43939394
+              ],
+              [
+                196,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 16,
+            "start_frame": 197,
+            "complete_frame": 199,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                197,
+                0.31851852
+              ],
+              [
+                198,
+                0.73333333
+              ],
+              [
+                199,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 17,
+            "start_frame": 199,
+            "complete_frame": 201,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                199,
+                0.14393939
+              ],
+              [
+                200,
+                0.43939394
+              ],
+              [
+                201,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 18,
+            "start_frame": 202,
+            "complete_frame": 203,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                202,
+                0.51724138
+              ],
+              [
+                203,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 19,
+            "start_frame": 204,
+            "complete_frame": 206,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                204,
+                0.31111111
+              ],
+              [
+                205,
+                0.73333333
+              ],
+              [
+                206,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 20,
+            "start_frame": 206,
+            "complete_frame": 208,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                206,
+                0.15483871
+              ],
+              [
+                207,
+                0.5483871
+              ],
+              [
+                208,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 21,
+            "start_frame": 209,
+            "complete_frame": 210,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                209,
+                0.36206897
+              ],
+              [
+                210,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 22,
+            "start_frame": 211,
+            "complete_frame": 212,
+            "hold_end_frame": 213,
+            "changes": [
+              [
+                211,
+                0.26262626
+              ],
+              [
+                212,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "start_frame": 213,
+        "end_frame_exclusive": 270,
+        "rows": [
+          {
+            "slot": 23,
+            "start_frame": 213,
+            "complete_frame": 215,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                213,
+                0.09565217
+              ],
+              [
+                214,
+                0.51304348
+              ],
+              [
+                215,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 24,
+            "start_frame": 215,
+            "complete_frame": 218,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                215,
+                0.07333333
+              ],
+              [
+                216,
+                0.40666667
+              ],
+              [
+                217,
+                0.88666667
+              ],
+              [
+                218,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 25,
+            "start_frame": 218,
+            "complete_frame": 220,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                218,
+                0.16891892
+              ],
+              [
+                219,
+                0.65540541
+              ],
+              [
+                220,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 26,
+            "start_frame": 221,
+            "complete_frame": 222,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                221,
+                0.51282051
+              ],
+              [
+                222,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 27,
+            "start_frame": 223,
+            "complete_frame": 224,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                223,
+                0.36283186
+              ],
+              [
+                224,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 28,
+            "start_frame": 225,
+            "complete_frame": 226,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                225,
+                0.37391304
+              ],
+              [
+                226,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 29,
+            "start_frame": 227,
+            "complete_frame": 229,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                227,
+                0.23275862
+              ],
+              [
+                228,
+                0.85344828
+              ],
+              [
+                229,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 30,
+            "start_frame": 229,
+            "complete_frame": 231,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                229,
+                0.26446281
+              ],
+              [
+                230,
+                0.7107438
+              ],
+              [
+                231,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 31,
+            "start_frame": 231,
+            "complete_frame": 233,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                231,
+                0.1965812
+              ],
+              [
+                232,
+                0.70940171
+              ],
+              [
+                233,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 32,
+            "start_frame": 233,
+            "complete_frame": 235,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                233,
+                0.15267176
+              ],
+              [
+                234,
+                0.45038168
+              ],
+              [
+                235,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 33,
+            "start_frame": 236,
+            "complete_frame": 238,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                236,
+                0.44615385
+              ],
+              [
+                237,
+                0.87692308
+              ],
+              [
+                238,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 34,
+            "start_frame": 238,
+            "complete_frame": 240,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                238,
+                0.17449664
+              ],
+              [
+                239,
+                0.65771812
+              ],
+              [
+                240,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 35,
+            "start_frame": 241,
+            "complete_frame": 242,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                241,
+                0.46666667
+              ],
+              [
+                242,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 36,
+            "start_frame": 243,
+            "complete_frame": 245,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                243,
+                0.35294118
+              ],
+              [
+                244,
+                0.75735294
+              ],
+              [
+                245,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 37,
+            "start_frame": 245,
+            "complete_frame": 247,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                245,
+                0.17777778
+              ],
+              [
+                246,
+                0.62222222
+              ],
+              [
+                247,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 38,
+            "start_frame": 248,
+            "complete_frame": 249,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                248,
+                0.45454545
+              ],
+              [
+                249,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 39,
+            "start_frame": 250,
+            "complete_frame": 252,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                250,
+                0.37391304
+              ],
+              [
+                251,
+                0.85217391
+              ],
+              [
+                252,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 40,
+            "start_frame": 252,
+            "complete_frame": 254,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                252,
+                0.24576271
+              ],
+              [
+                253,
+                0.84745763
+              ],
+              [
+                254,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 41,
+            "start_frame": 254,
+            "complete_frame": 256,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                254,
+                0.16814159
+              ],
+              [
+                255,
+                0.7079646
+              ],
+              [
+                256,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 42,
+            "start_frame": 256,
+            "complete_frame": 258,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                256,
+                0.16666667
+              ],
+              [
+                257,
+                0.46212121
+              ],
+              [
+                258,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 43,
+            "start_frame": 259,
+            "complete_frame": 261,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                259,
+                0.32608696
+              ],
+              [
+                260,
+                0.7173913
+              ],
+              [
+                261,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 44,
+            "start_frame": 262,
+            "complete_frame": 264,
+            "hold_end_frame": 270,
+            "changes": [
+              [
+                262,
+                0.36309524
+              ],
+              [
+                263,
+                0.79761905
+              ],
+              [
+                264,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "start_frame": 270,
+        "end_frame_exclusive": 329,
+        "rows": [
+          {
+            "slot": 45,
+            "start_frame": 270,
+            "complete_frame": 272,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                270,
+                0.10169492
+              ],
+              [
+                271,
+                0.51694915
+              ],
+              [
+                272,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 46,
+            "start_frame": 272,
+            "complete_frame": 274,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                272,
+                0.08759124
+              ],
+              [
+                273,
+                0.45255474
+              ],
+              [
+                274,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 47,
+            "start_frame": 275,
+            "complete_frame": 277,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                275,
+                0.31851852
+              ],
+              [
+                276,
+                0.74074074
+              ],
+              [
+                277,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 48,
+            "start_frame": 277,
+            "complete_frame": 279,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                277,
+                0.16788321
+              ],
+              [
+                278,
+                0.61313869
+              ],
+              [
+                279,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 49,
+            "start_frame": 280,
+            "complete_frame": 281,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                280,
+                0.45588235
+              ],
+              [
+                281,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 50,
+            "start_frame": 282,
+            "complete_frame": 284,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                282,
+                0.19852941
+              ],
+              [
+                283,
+                0.73529412
+              ],
+              [
+                284,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 51,
+            "start_frame": 284,
+            "complete_frame": 286,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                284,
+                0.18571429
+              ],
+              [
+                285,
+                0.62857143
+              ],
+              [
+                286,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 52,
+            "start_frame": 287,
+            "complete_frame": 288,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                287,
+                0.47887324
+              ],
+              [
+                288,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 53,
+            "start_frame": 289,
+            "complete_frame": 291,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                289,
+                0.19745223
+              ],
+              [
+                290,
+                0.66242038
+              ],
+              [
+                291,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 54,
+            "start_frame": 291,
+            "complete_frame": 293,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                291,
+                0.10218978
+              ],
+              [
+                292,
+                0.45985401
+              ],
+              [
+                293,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 55,
+            "start_frame": 294,
+            "complete_frame": 296,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                294,
+                0.37288136
+              ],
+              [
+                295,
+                0.84745763
+              ],
+              [
+                296,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 56,
+            "start_frame": 296,
+            "complete_frame": 298,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                296,
+                0.2
+              ],
+              [
+                297,
+                0.74074074
+              ],
+              [
+                298,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 57,
+            "start_frame": 298,
+            "complete_frame": 300,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                298,
+                0.12658228
+              ],
+              [
+                299,
+                0.42405063
+              ],
+              [
+                300,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 58,
+            "start_frame": 301,
+            "complete_frame": 303,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                301,
+                0.2125
+              ],
+              [
+                302,
+                0.675
+              ],
+              [
+                303,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 59,
+            "start_frame": 303,
+            "complete_frame": 306,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                303,
+                0.07236842
+              ],
+              [
+                304,
+                0.40131579
+              ],
+              [
+                305,
+                0.88157895
+              ],
+              [
+                306,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 60,
+            "start_frame": 306,
+            "complete_frame": 308,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                306,
+                0.18709677
+              ],
+              [
+                307,
+                0.54193548
+              ],
+              [
+                308,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 61,
+            "start_frame": 309,
+            "complete_frame": 310,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                309,
+                0.51724138
+              ],
+              [
+                310,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 62,
+            "start_frame": 311,
+            "complete_frame": 313,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                311,
+                0.29139073
+              ],
+              [
+                312,
+                0.78807947
+              ],
+              [
+                313,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 63,
+            "start_frame": 314,
+            "complete_frame": 315,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                314,
+                0.52136752
+              ],
+              [
+                315,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 64,
+            "start_frame": 316,
+            "complete_frame": 318,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                316,
+                0.33088235
+              ],
+              [
+                317,
+                0.875
+              ],
+              [
+                318,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 65,
+            "start_frame": 318,
+            "complete_frame": 320,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                318,
+                0.2
+              ],
+              [
+                319,
+                0.61481481
+              ],
+              [
+                320,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 66,
+            "start_frame": 320,
+            "complete_frame": 322,
+            "hold_end_frame": 329,
+            "changes": [
+              [
+                320,
+                0.11650485
+              ],
+              [
+                321,
+                0.61165049
+              ],
+              [
+                322,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "start_frame": 329,
+        "end_frame_exclusive": 388,
+        "rows": [
+          {
+            "slot": 67,
+            "start_frame": 329,
+            "complete_frame": 331,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                329,
+                0.12121212
+              ],
+              [
+                330,
+                0.60606061
+              ],
+              [
+                331,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 68,
+            "start_frame": 331,
+            "complete_frame": 333,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                331,
+                0.1503268
+              ],
+              [
+                332,
+                0.40522876
+              ],
+              [
+                333,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 69,
+            "start_frame": 334,
+            "complete_frame": 336,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                334,
+                0.2393617
+              ],
+              [
+                335,
+                0.53723404
+              ],
+              [
+                336,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 70,
+            "start_frame": 337,
+            "complete_frame": 338,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                337,
+                0.3697479
+              ],
+              [
+                338,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 71,
+            "start_frame": 339,
+            "complete_frame": 341,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                339,
+                0.2
+              ],
+              [
+                340,
+                0.82608696
+              ],
+              [
+                341,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 72,
+            "start_frame": 341,
+            "complete_frame": 343,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                341,
+                0.18656716
+              ],
+              [
+                342,
+                0.60447761
+              ],
+              [
+                343,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 73,
+            "start_frame": 343,
+            "complete_frame": 345,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                343,
+                0.22222222
+              ],
+              [
+                344,
+                0.57777778
+              ],
+              [
+                345,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 74,
+            "start_frame": 346,
+            "complete_frame": 347,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                346,
+                0.66949153
+              ],
+              [
+                347,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 75,
+            "start_frame": 347,
+            "complete_frame": 349,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                347,
+                0.2300885
+              ],
+              [
+                348,
+                0.65486726
+              ],
+              [
+                349,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 76,
+            "start_frame": 349,
+            "complete_frame": 352,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                349,
+                0.14545455
+              ],
+              [
+                350,
+                0.44848485
+              ],
+              [
+                351,
+                0.8969697
+              ],
+              [
+                352,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 77,
+            "start_frame": 352,
+            "complete_frame": 354,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                352,
+                0.28346457
+              ],
+              [
+                353,
+                0.86614173
+              ],
+              [
+                354,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 78,
+            "start_frame": 354,
+            "complete_frame": 356,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                354,
+                0.25581395
+              ],
+              [
+                355,
+                0.72093023
+              ],
+              [
+                356,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 79,
+            "start_frame": 356,
+            "complete_frame": 358,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                356,
+                0.29927007
+              ],
+              [
+                357,
+                0.58394161
+              ],
+              [
+                358,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 80,
+            "start_frame": 358,
+            "complete_frame": 360,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                358,
+                0.22142857
+              ],
+              [
+                359,
+                0.59285714
+              ],
+              [
+                360,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 81,
+            "start_frame": 361,
+            "complete_frame": 362,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                361,
+                0.50862069
+              ],
+              [
+                362,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 82,
+            "start_frame": 363,
+            "complete_frame": 364,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                363,
+                0.52136752
+              ],
+              [
+                364,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 83,
+            "start_frame": 365,
+            "complete_frame": 367,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                365,
+                0.28289474
+              ],
+              [
+                366,
+                0.65789474
+              ],
+              [
+                367,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 84,
+            "start_frame": 368,
+            "complete_frame": 369,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                368,
+                0.45588235
+              ],
+              [
+                369,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 85,
+            "start_frame": 370,
+            "complete_frame": 372,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                370,
+                0.22222222
+              ],
+              [
+                371,
+                0.84615385
+              ],
+              [
+                372,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 86,
+            "start_frame": 372,
+            "complete_frame": 374,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                372,
+                0.19852941
+              ],
+              [
+                373,
+                0.61764706
+              ],
+              [
+                374,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 87,
+            "start_frame": 374,
+            "complete_frame": 377,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                374,
+                0.07333333
+              ],
+              [
+                375,
+                0.4
+              ],
+              [
+                376,
+                0.89333333
+              ],
+              [
+                377,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 88,
+            "start_frame": 377,
+            "complete_frame": 379,
+            "hold_end_frame": 388,
+            "changes": [
+              [
+                377,
+                0.19852941
+              ],
+              [
+                378,
+                0.74264706
+              ],
+              [
+                379,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "start_frame": 388,
+        "end_frame_exclusive": 446,
+        "rows": [
+          {
+            "slot": 89,
+            "start_frame": 388,
+            "complete_frame": 390,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                388,
+                0.1294964
+              ],
+              [
+                389,
+                0.61870504
+              ],
+              [
+                390,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 90,
+            "start_frame": 390,
+            "complete_frame": 392,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                390,
+                0.08633094
+              ],
+              [
+                391,
+                0.4676259
+              ],
+              [
+                392,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 91,
+            "start_frame": 393,
+            "complete_frame": 394,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                393,
+                0.44117647
+              ],
+              [
+                394,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 92,
+            "start_frame": 395,
+            "complete_frame": 397,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                395,
+                0.28846154
+              ],
+              [
+                396,
+                0.76923077
+              ],
+              [
+                397,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 93,
+            "start_frame": 397,
+            "complete_frame": 399,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                397,
+                0.15942029
+              ],
+              [
+                398,
+                0.73913043
+              ],
+              [
+                399,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 94,
+            "start_frame": 399,
+            "complete_frame": 401,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                399,
+                0.17266187
+              ],
+              [
+                400,
+                0.61151079
+              ],
+              [
+                401,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 95,
+            "start_frame": 401,
+            "complete_frame": 403,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                401,
+                0.15882353
+              ],
+              [
+                402,
+                0.44705882
+              ],
+              [
+                403,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 96,
+            "start_frame": 404,
+            "complete_frame": 406,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                404,
+                0.35672515
+              ],
+              [
+                405,
+                0.79532164
+              ],
+              [
+                406,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 97,
+            "start_frame": 406,
+            "complete_frame": 408,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                406,
+                0.18902439
+              ],
+              [
+                407,
+                0.56097561
+              ],
+              [
+                408,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 98,
+            "start_frame": 408,
+            "complete_frame": 410,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                408,
+                0.12650602
+              ],
+              [
+                409,
+                0.43373494
+              ],
+              [
+                410,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 99,
+            "start_frame": 411,
+            "complete_frame": 413,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                411,
+                0.36734694
+              ],
+              [
+                412,
+                0.87755102
+              ],
+              [
+                413,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 100,
+            "start_frame": 413,
+            "complete_frame": 415,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                413,
+                0.29878049
+              ],
+              [
+                414,
+                0.67682927
+              ],
+              [
+                415,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 101,
+            "start_frame": 415,
+            "complete_frame": 417,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                415,
+                0.14375
+              ],
+              [
+                416,
+                0.525
+              ],
+              [
+                417,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 102,
+            "start_frame": 418,
+            "complete_frame": 419,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                418,
+                0.47586207
+              ],
+              [
+                419,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 103,
+            "start_frame": 420,
+            "complete_frame": 422,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                420,
+                0.25170068
+              ],
+              [
+                421,
+                0.76190476
+              ],
+              [
+                422,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 104,
+            "start_frame": 422,
+            "complete_frame": 424,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                422,
+                0.14765101
+              ],
+              [
+                423,
+                0.4966443
+              ],
+              [
+                424,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 105,
+            "start_frame": 425,
+            "complete_frame": 427,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                425,
+                0.37414966
+              ],
+              [
+                426,
+                0.88435374
+              ],
+              [
+                427,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 106,
+            "start_frame": 427,
+            "complete_frame": 429,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                427,
+                0.22818792
+              ],
+              [
+                428,
+                0.75838926
+              ],
+              [
+                429,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 107,
+            "start_frame": 429,
+            "complete_frame": 431,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                429,
+                0.14965986
+              ],
+              [
+                430,
+                0.48979592
+              ],
+              [
+                431,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 108,
+            "start_frame": 432,
+            "complete_frame": 434,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                432,
+                0.37583893
+              ],
+              [
+                433,
+                0.87919463
+              ],
+              [
+                434,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 109,
+            "start_frame": 434,
+            "complete_frame": 436,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                434,
+                0.30088496
+              ],
+              [
+                435,
+                0.84955752
+              ],
+              [
+                436,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 110,
+            "start_frame": 436,
+            "complete_frame": 438,
+            "hold_end_frame": 446,
+            "changes": [
+              [
+                436,
+                0.20547945
+              ],
+              [
+                437,
+                0.63013699
+              ],
+              [
+                438,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "start_frame": 446,
+        "end_frame_exclusive": 504,
+        "rows": [
+          {
+            "slot": 111,
+            "start_frame": 446,
+            "complete_frame": 448,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                446,
+                0.12056738
+              ],
+              [
+                447,
+                0.46099291
+              ],
+              [
+                448,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 112,
+            "start_frame": 449,
+            "complete_frame": 451,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                449,
+                0.35211268
+              ],
+              [
+                450,
+                0.88028169
+              ],
+              [
+                451,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 113,
+            "start_frame": 451,
+            "complete_frame": 453,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                451,
+                0.19014085
+              ],
+              [
+                452,
+                0.62676056
+              ],
+              [
+                453,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 114,
+            "start_frame": 453,
+            "complete_frame": 455,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                453,
+                0.06293706
+              ],
+              [
+                454,
+                0.48251748
+              ],
+              [
+                455,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 115,
+            "start_frame": 456,
+            "complete_frame": 458,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                456,
+                0.20779221
+              ],
+              [
+                457,
+                0.69480519
+              ],
+              [
+                458,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 116,
+            "start_frame": 458,
+            "complete_frame": 460,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                458,
+                0.07086614
+              ],
+              [
+                459,
+                0.54330709
+              ],
+              [
+                460,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 117,
+            "start_frame": 461,
+            "complete_frame": 463,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                461,
+                0.36734694
+              ],
+              [
+                462,
+                0.8707483
+              ],
+              [
+                463,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 118,
+            "start_frame": 463,
+            "complete_frame": 465,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                463,
+                0.25757576
+              ],
+              [
+                464,
+                0.85606061
+              ],
+              [
+                465,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 119,
+            "start_frame": 465,
+            "complete_frame": 467,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                465,
+                0.22834646
+              ],
+              [
+                466,
+                0.71653543
+              ],
+              [
+                467,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 120,
+            "start_frame": 467,
+            "complete_frame": 469,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                467,
+                0.14189189
+              ],
+              [
+                468,
+                0.47972973
+              ],
+              [
+                469,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 121,
+            "start_frame": 470,
+            "complete_frame": 472,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                470,
+                0.28089888
+              ],
+              [
+                471,
+                0.70224719
+              ],
+              [
+                472,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 122,
+            "start_frame": 472,
+            "complete_frame": 475,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                472,
+                0.07784431
+              ],
+              [
+                473,
+                0.4491018
+              ],
+              [
+                474,
+                0.89221557
+              ],
+              [
+                475,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 123,
+            "start_frame": 475,
+            "complete_frame": 477,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                475,
+                0.18478261
+              ],
+              [
+                476,
+                0.52173913
+              ],
+              [
+                477,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 124,
+            "start_frame": 478,
+            "complete_frame": 480,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                478,
+                0.22043011
+              ],
+              [
+                479,
+                0.62365591
+              ],
+              [
+                480,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 125,
+            "start_frame": 481,
+            "complete_frame": 483,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                481,
+                0.31481481
+              ],
+              [
+                482,
+                0.88888889
+              ],
+              [
+                483,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 126,
+            "start_frame": 483,
+            "complete_frame": 485,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                483,
+                0.19512195
+              ],
+              [
+                484,
+                0.56707317
+              ],
+              [
+                485,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 127,
+            "start_frame": 486,
+            "complete_frame": 488,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                486,
+                0.31677019
+              ],
+              [
+                487,
+                0.7826087
+              ],
+              [
+                488,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 128,
+            "start_frame": 488,
+            "complete_frame": 491,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                488,
+                0.11049724
+              ],
+              [
+                489,
+                0.39226519
+              ],
+              [
+                490,
+                0.90055249
+              ],
+              [
+                491,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 129,
+            "start_frame": 491,
+            "complete_frame": 493,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                491,
+                0.18902439
+              ],
+              [
+                492,
+                0.56707317
+              ],
+              [
+                493,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 130,
+            "start_frame": 494,
+            "complete_frame": 496,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                494,
+                0.32926829
+              ],
+              [
+                495,
+                0.7804878
+              ],
+              [
+                496,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 131,
+            "start_frame": 496,
+            "complete_frame": 498,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                496,
+                0.11875
+              ],
+              [
+                497,
+                0.41875
+              ],
+              [
+                498,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 132,
+            "start_frame": 499,
+            "complete_frame": 501,
+            "hold_end_frame": 504,
+            "changes": [
+              [
+                499,
+                0.20987654
+              ],
+              [
+                500,
+                0.77777778
+              ],
+              [
+                501,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "start_frame": 504,
+        "end_frame_exclusive": 563,
+        "rows": [
+          {
+            "slot": 133,
+            "start_frame": 504,
+            "complete_frame": 506,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                504,
+                0.15168539
+              ],
+              [
+                505,
+                0.7752809
+              ],
+              [
+                506,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 134,
+            "start_frame": 506,
+            "complete_frame": 507,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                506,
+                0.3
+              ],
+              [
+                507,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 135,
+            "start_frame": 508,
+            "complete_frame": 509,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                508,
+                0.40449438
+              ],
+              [
+                509,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 136,
+            "start_frame": 510,
+            "complete_frame": 511,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                510,
+                0.66666667
+              ],
+              [
+                511,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 137,
+            "start_frame": 511,
+            "complete_frame": 513,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                511,
+                0.15920398
+              ],
+              [
+                512,
+                0.80099502
+              ],
+              [
+                513,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 138,
+            "start_frame": 513,
+            "complete_frame": 515,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                513,
+                0.27
+              ],
+              [
+                514,
+                0.9
+              ],
+              [
+                515,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 139,
+            "start_frame": 515,
+            "complete_frame": 516,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                515,
+                0.37
+              ],
+              [
+                516,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 140,
+            "start_frame": 517,
+            "complete_frame": 518,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                517,
+                0.42076503
+              ],
+              [
+                518,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 141,
+            "start_frame": 518,
+            "complete_frame": 520,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                518,
+                0.11949686
+              ],
+              [
+                519,
+                0.74213836
+              ],
+              [
+                520,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 142,
+            "start_frame": 520,
+            "complete_frame": 521,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                520,
+                0.34161491
+              ],
+              [
+                521,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 143,
+            "start_frame": 522,
+            "complete_frame": 523,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                522,
+                0.4479638
+              ],
+              [
+                523,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 144,
+            "start_frame": 524,
+            "complete_frame": 525,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                524,
+                0.68456376
+              ],
+              [
+                525,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 145,
+            "start_frame": 525,
+            "complete_frame": 527,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                525,
+                0.19428571
+              ],
+              [
+                526,
+                0.77142857
+              ],
+              [
+                527,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 146,
+            "start_frame": 527,
+            "complete_frame": 528,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                527,
+                0.3943662
+              ],
+              [
+                528,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 147,
+            "start_frame": 528,
+            "complete_frame": 530,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                528,
+                0.02857143
+              ],
+              [
+                529,
+                0.85
+              ],
+              [
+                530,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 148,
+            "start_frame": 530,
+            "complete_frame": 531,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                530,
+                0.3943662
+              ],
+              [
+                531,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 149,
+            "start_frame": 531,
+            "complete_frame": 532,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                531,
+                0.14754098
+              ],
+              [
+                532,
+                1
+              ]
+            ]
+          },
+          {
+            "slot": 150,
+            "start_frame": 533,
+            "complete_frame": 534,
+            "hold_end_frame": 563,
+            "changes": [
+              [
+                533,
+                0.46875
+              ],
+              [
+                534,
+                1
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

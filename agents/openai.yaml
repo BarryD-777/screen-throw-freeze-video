@@ -1,0 +1,4 @@
+interface:
+  display_name: "大屏抛接静帧卡点视频"
+  short_description: "自定义背景、人物与产品，按固定时间线完成连续抛接、静帧背景与逐字卡点"
+  default_prompt: "用 $screen-throw-freeze-video 做一条视频，先确认背景、人物、产品图和文案，再用我提供的音乐按固定时间线制作。"

@@ -1,0 +1,25 @@
+# Local media and generated output are supplied by each user.
+*.mp4
+*.mov
+*.MOV
+*.mp3
+*.m4a
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+local-media/
+productions/
+outputs/
+cues.json
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+credentials*
+*secret*
+.DS_Store
+Thumbs.db
