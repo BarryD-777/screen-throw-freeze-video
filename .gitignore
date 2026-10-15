@@ -20,6 +20,15 @@ __pycache__/
 .venv/
 .env
 .env.*
+.hypit/
+.codex/
+.aws/
+.ssh/
+.credentials/
+*.pem
+*.key
+*.p12
+*.pfx
 credentials*
 *secret*
 .DS_Store
