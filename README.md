@@ -51,7 +51,8 @@ git clone https://github.com/BarryD-777/screen-throw-freeze-video.git "$env:USER
 
 - 卡点工具使用 **Python 3.9+**，只依赖标准库。
 - 成片还需要当前环境的视频生成服务、图片工具及支持逐帧合成的渲染工具。可配合已安装的 Hypit 流程，或由其他工具按时钟实现；本仓库没有捆绑视频模型、API账户或完整渲染器。
-- 用户自行提供可用的产品图、人物参考和有权使用的音乐。**原样片与BGM未随仓库发布**，本仓库也不授予第三方品牌、角色、音乐或照片的使用权。
+- 用户自行提供可用的产品图与人物参考。仓库附有[参考版BGM](assets/reference-bgm.m4a)：约18.714秒、AAC立体声，直接从用户提供的样片音轨提取，未重新编码；原样片没有发布。
+- BGM的授权范围单列于[音乐素材说明](assets/MEDIA-LICENSE.md)，不纳入代码的MIT许可；本仓库不额外授予第三方品牌、角色、音乐或照片的使用权。
 - 固定时钟保留参考版的节奏，只有对应音乐从0秒原速播放时才能复现原来的音乐对齐。换曲需要重新检查，不能保证与任意歌曲自动卡点。
 
 ## 生成出字计划
@@ -63,13 +64,13 @@ python scripts/make_cues.py --self-test
 python scripts/make_cues.py --copy examples/copy.example.json --output outputs/cues.json
 ```
 
-需要把音轨路径交给后续渲染器时：
+默认会自动使用仓库附带的参考BGM，无需另找音乐。若要明确指定另一首本地音轨：
 
 ```bash
 python scripts/make_cues.py --copy your-copy.json --output outputs/cues-with-audio.json --audio local-media/your-licensed-track.m4a
 ```
 
-不提供音乐也可生成时钟，输出的 `audio.requires_user_asset` 为 `true`。提供 `--audio` 时会检查文件是否存在。输出包含本地音乐的绝对路径，适合本机制作，不应提交到公开仓库；`outputs/` 默认忽略。
+不传`--audio`时自动定位`assets/reference-bgm.m4a`，输出的`audio.requires_user_asset`为`false`。仅在未指定音乐且附带文件缺失时，工具才输出空音轨路径并标记需要补音乐；显式传入无效路径会报错，不静默改用另一首。输出包含本地音乐的绝对路径，适合本机制作，不应提交到公开仓库；`outputs/`默认忽略。
 
 工具只生成 JSON，**不会直接输出视频**。它保留每行的起始帧、展开曲线、换页边界和全长；不补文案、不生成成分、不下载音乐、不调用收费API，且不会覆盖已有输出文件。
 
@@ -83,6 +84,7 @@ python scripts/make_cues.py --copy your-copy.json --output outputs/cues-with-aud
 
 - [`SKILL.md`](SKILL.md)：技能入口和制作约束。
 - [`assets/reveal-clock.json`](assets/reveal-clock.json)：逐帧归一化展开曲线。
+- [`assets/reference-bgm.m4a`](assets/reference-bgm.m4a)：与固定出字时间线对应的原音轨片段。
 - [`scripts/make_cues.py`](scripts/make_cues.py)：替换文案与音轨定位工具。
 - [`references/accepted-timeline.md`](references/accepted-timeline.md)：完整时点、布局和数据格式。
 - [`references/production-recipe.md`](references/production-recipe.md)：抛接连贯性、包装合成和静帧检查。
@@ -90,4 +92,4 @@ python scripts/make_cues.py --copy your-copy.json --output outputs/cues-with-aud
 
 ## License
 
-本仓库中的代码、指令、文档和时钟数据采用 [MIT License](LICENSE)。用户自行提供的素材及所使用的外部服务适用各自的授权和条款。
+本仓库中的代码、指令、文档和时钟数据采用 [MIT License](LICENSE)。音频文件`assets/reference-bgm.m4a`不在MIT授权范围内，详见[音乐素材说明](assets/MEDIA-LICENSE.md)。用户自行提供的素材及所使用的外部服务适用各自的授权和条款。

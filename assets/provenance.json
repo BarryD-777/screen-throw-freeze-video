@@ -7,6 +7,17 @@
     "fps": 30,
     "frames": 563
   },
-  "distribution": "Timing data, authored skill instructions and cue-generation code only. Reference video, music, product imagery, account configuration and private production files are excluded.",
+  "audio": {
+    "file": "reference-bgm.m4a",
+    "source": "Audio extracted without re-encoding from the user-provided reference video, included at the repository maintainer's request.",
+    "sha256": "c87b8fdfdec7b5931f499f7b6bf29d645549a9ed9931358658cea399381759f1",
+    "bytes": 304283,
+    "duration_seconds": 18.713832,
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "license_note": "MEDIA-LICENSE.md; audio excluded from the MIT License."
+  },
+  "distribution": "Timing data, authored skill instructions, cue-generation code and the reference audio excerpt. Reference video, product imagery, account configuration and private production files are excluded.",
   "claims": "No product ingredient or non-detection claims are supplied by this package. Replacement copy needs its own SKU-matched basis."
 }

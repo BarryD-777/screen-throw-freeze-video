@@ -102,7 +102,7 @@ def main() -> None:
     parser.add_argument('--copy', type=Path)
     parser.add_argument('--output', type=Path)
     parser.add_argument('--audio', type=Path,
-                        help='Local licensed audio; omitted when only preparing cues')
+                        help='Override the bundled reference track with a local audio file')
     parser.add_argument('--self-test', action='store_true')
     args = parser.parse_args()
     clock = read_json(ROOT/'assets/reveal-clock.json')
@@ -114,7 +114,11 @@ def main() -> None:
     try:
         if args.audio is not None and not args.audio.is_file():
             raise ValueError('audio file does not exist; provide a local track you may use')
-        output = compose(read_json(args.copy), clock, args.audio)
+        audio_path = args.audio
+        bundled_audio = ROOT/'assets'/clock['audio']['asset']
+        if audio_path is None and bundled_audio.is_file():
+            audio_path = bundled_audio
+        output = compose(read_json(args.copy), clock, audio_path)
         if args.output.exists():
             raise ValueError('output already exists; use a new version path')
         args.output.parent.mkdir(parents=True, exist_ok=True)

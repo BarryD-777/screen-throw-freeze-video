@@ -2,9 +2,9 @@
 
 ## 来源与范围
 
-此时间线来自已经过实际成片检查的静帧背景版本。公开包保留逐帧归一化展开进度，不发布原视频、音乐、产品字稿或私人制作工程。
+此时间线来自已经过实际成片检查的静帧背景版本。公开包保留逐帧归一化展开进度和对应BGM，不发布原视频、产品字稿或私人制作工程。
 
-原片中的成分和未检出文案不作为新产品的事实来源。`assets/reveal-clock.json`只有时序和比例数据；换产品后必须重新取得对应文案。原音轨由使用者在本地提供。
+原片中的成分和未检出文案不作为新产品的事实来源。`assets/reveal-clock.json`只有时序和比例数据；换产品后必须重新取得对应文案。对应原音轨在`assets/reference-bgm.m4a`，另见[音乐素材说明](../assets/MEDIA-LICENSE.md)。
 
 ## 固定事件
 
@@ -57,7 +57,7 @@
 python scripts/make_cues.py --copy <copy.json> --output <新目录/cues.json> --audio <本地有权使用的音轨>
 ```
 
-`--audio`可省略以便先准备时钟。指定音轨时会检查文件存在，输出`audio.source_asset`为本地绝对路径；省略时为null，`audio.requires_user_asset`为true。渲染器合成前必须解析有效音轨，不得从网上自行下载不明音乐。
+`--audio`可省略，默认自动使用`assets/reference-bgm.m4a`；只有未指定音乐且附带文件缺失时，`audio.source_asset`才为null，`audio.requires_user_asset`为true。显式指定音轨会检查文件存在，输出本地绝对路径；错误路径会报错，不自动回退。渲染器合成前必须解析有效音轨。
 
 空列表不显示对应标题。少项版本保留时间线并隐藏空位，不重复补齐。超出容量或出现重复/空行时工具报错。工具不会覆盖已有输出。
 
